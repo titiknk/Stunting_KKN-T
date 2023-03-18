@@ -4,16 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#B0E0E6"
+    android:background="@drawable/dbmenu"
     tools:context=".MenuActivity">
 
-    <ImageView
-        android:id="@+id/imgMenu"
-        android:layout_width="match_parent"
-        android:layout_height="200dp"
-        android:background="@drawable/button1_"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
