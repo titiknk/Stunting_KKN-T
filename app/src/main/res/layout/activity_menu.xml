@@ -15,6 +15,8 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:text="Welcome"
+        android:textSize="14dp"
+        android:textColor="@color/black"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -25,7 +27,9 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="20dp"
         android:text="SPEA"
+        android:textSize="20dp"
         android:textStyle="bold"
+        android:textColor="@color/black"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/welcome" />
 
@@ -34,8 +38,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/black"
         android:text="Stunting Prevention Education Application"
+        android:textSize="14dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/spea" />
 
@@ -470,4 +476,5 @@
             android:textStyle="bold" />
 
     </GridLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
