@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">KKNT_Stunting</string>
+    <string name="pengertian">Stunting adalah gangguan pertumbuhan yang ditandai dengan tinggi anak yang berada di bawah standar (lebih pendek) jika dibandingkan anak-anak seusianya.</string>
+    <string name="data">Berdasarkan data Survei Status Gizi Balita Indonesia (SSGBI) tahun 2021, ada sekitar 24% atau 5,33 juta balita Indonesia yang mengalami stunting.</string>
 </resources>
