@@ -55,37 +55,37 @@ public class MenuActivity extends AppCompatActivity {
     }
 
     private void Fitur3() {
-        Intent intent = new Intent(this, Fitur3.class);
+        Intent intent = new Intent(this, TandaGejala.class);
         startActivity(intent);
     }
 
     private void Fitur4() {
-        Intent intent = new Intent(this, Fitur4.class);
+        Intent intent = new Intent(this, DampakStunting.class);
         startActivity(intent);
     }
 
     private void Fitur5() {
-        Intent intent = new Intent(this, Fitur5.class);
+        Intent intent = new Intent(this, PencegahanStunting.class);
         startActivity(intent);
     }
 
     private void Fitur6() {
-        Intent intent = new Intent(this, Fitur6.class);
+        Intent intent = new Intent(this, DeteksiDini.class);
         startActivity(intent);
     }
 
     private void Fitur7() {
-        Intent intent = new Intent(this, Fitur7.class);
+        Intent intent = new Intent(this, ReferensiNutrisari.class);
         startActivity(intent);
     }
 
     private void Fitur8() {
-        Intent intent = new Intent(this, Fitur8.class);
+        Intent intent = new Intent(this, PentingnyaAsi.class);
         startActivity(intent);
     }
 
     private void Fitur9() {
-        Intent intent = new Intent(this, Fitur9.class);
+        Intent intent = new Intent(this, InfografisData.class);
         startActivity(intent);
     }
 }

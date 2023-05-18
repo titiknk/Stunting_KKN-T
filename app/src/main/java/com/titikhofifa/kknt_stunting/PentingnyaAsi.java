@@ -5,14 +5,14 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class Fitur1 extends AppCompatActivity {
+public class PentingnyaAsi extends AppCompatActivity {
     ActionBar actionBar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_fitur1);
-        getSupportActionBar().setTitle("Apa Itu Stunting?");
+        setContentView(R.layout.activity_pentingnya_asi);
+        getSupportActionBar().setTitle("Pentingnya ASI Ekslusif");
         actionBar = getSupportActionBar();
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
