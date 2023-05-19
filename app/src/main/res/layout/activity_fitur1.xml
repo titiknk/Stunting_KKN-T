@@ -48,10 +48,10 @@
                     android:layout_height="wrap_content"
                     android:layout_toEndOf="@id/stunting"
                     android:layout_marginTop="30dp"
-                    android:layout_marginRight="16dp"
+                    android:layout_marginRight="18dp"
                     android:text="@string/pengertian"
                     android:textColor="@color/black"
-                    android:textSize="17sp"
+                    android:textSize="16sp"
                     android:justificationMode="inter_word"
                     android:layout_below="@id/apaitustunting"/>
 
@@ -59,14 +59,12 @@
                     android:id="@+id/data"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="110dp"
-                    android:layout_marginLeft="18dp"
-                    android:layout_marginRight="18dp"
+                    android:layout_margin="18dp"
                     android:text="@string/data"
                     android:textColor="@color/black"
-                    android:textSize="17sp"
+                    android:textSize="16sp"
                     android:justificationMode="inter_word"
-                    android:layout_below="@id/stunting"/>
+                    android:layout_below="@id/pengertian"/>
 
 
             </RelativeLayout>

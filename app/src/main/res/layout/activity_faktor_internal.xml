@@ -35,6 +35,21 @@
                     android:textSize="34sp"
                     android:textStyle="bold" />
 
+                <ImageView
+                    android:id="@+id/angka1"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_below="@id/faktorInternal"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:src="@drawable/angka1" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"/>
+
             </RelativeLayout>
 
         </LinearLayout>
