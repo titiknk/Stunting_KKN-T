@@ -35,36 +35,36 @@
 
                 <ImageView
                     android:id="@+id/stunting"
-                    android:layout_width="150dp"
+                    android:layout_width="120dp"
                     android:layout_height="150dp"
                     android:layout_below="@id/apaitustunting"
-                    android:layout_marginTop="40dp"
+                    android:layout_centerInParent="true"
                     android:layout_marginLeft="16dp"
-                    android:src="@drawable/stunting"/>
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/stunting" />
 
                 <TextView
                     android:id="@+id/pengertian"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_toEndOf="@id/stunting"
-                    android:layout_marginTop="30dp"
-                    android:layout_marginRight="18dp"
+                    android:layout_below="@id/stunting"
+                    android:layout_margin="18dp"
+                    android:justificationMode="inter_word"
                     android:text="@string/pengertian"
                     android:textColor="@color/black"
-                    android:textSize="16sp"
-                    android:justificationMode="inter_word"
-                    android:layout_below="@id/apaitustunting"/>
+                    android:textSize="18sp" />
 
                 <TextView
                     android:id="@+id/data"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_margin="18dp"
+                    android:layout_below="@id/pengertian"
+                    android:layout_marginStart="18dp"
+                    android:layout_marginEnd="18dp"
+                    android:justificationMode="inter_word"
                     android:text="@string/data"
                     android:textColor="@color/black"
-                    android:textSize="16sp"
-                    android:justificationMode="inter_word"
-                    android:layout_below="@id/pengertian"/>
+                    android:textSize="18sp" />
 
 
             </RelativeLayout>
