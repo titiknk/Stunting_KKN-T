@@ -24,6 +24,10 @@ public class Kamusku extends AppCompatActivity {
     CardView cardview7 = findViewById(R.id.card7);
     CardView cardview8 = findViewById(R.id.card8);
     CardView cardview9 = findViewById(R.id.card9);
+    CardView cardview10 = findViewById(R.id.card10);
+    CardView cardview11 = findViewById(R.id.card11);
+    CardView cardview12 = findViewById(R.id.card12);
+    CardView cardview13 = findViewById(R.id.card13);
 
         cardview1.setOnClickListener(view -> Fitur1());
 
@@ -43,6 +47,13 @@ public class Kamusku extends AppCompatActivity {
 
         cardview9.setOnClickListener(view -> Fitur9());
 
+        cardview10.setOnClickListener(view -> Fitur10());
+
+        cardview11.setOnClickListener(view -> Fitur11());
+
+        cardview12.setOnClickListener(view -> Fitur12());
+
+        cardview13.setOnClickListener(view -> Fitur13());
 }
 
     private void Fitur1() {
@@ -87,6 +98,26 @@ public class Kamusku extends AppCompatActivity {
 
     private void Fitur9() {
         Intent intent = new Intent(this, Kolin.class);
+        startActivity(intent);
+    }
+
+    private void Fitur10() {
+        Intent intent = new Intent(this, VitaminC.class);
+        startActivity(intent);
+    }
+
+    private void Fitur11() {
+        Intent intent = new Intent(this, Yodium.class);
+        startActivity(intent);
+    }
+
+    private void Fitur12() {
+        Intent intent = new Intent(this, Seng.class);
+        startActivity(intent);
+    }
+
+    private void Fitur13() {
+        Intent intent = new Intent(this, AsamLemakOmega.class);
         startActivity(intent);
     }
 
