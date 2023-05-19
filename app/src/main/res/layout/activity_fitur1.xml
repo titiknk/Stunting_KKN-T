@@ -38,7 +38,7 @@
                     android:layout_width="150dp"
                     android:layout_height="150dp"
                     android:layout_below="@id/apaitustunting"
-                    android:layout_marginTop="30dp"
+                    android:layout_marginTop="40dp"
                     android:layout_marginLeft="16dp"
                     android:src="@drawable/stunting"/>
 
@@ -57,25 +57,16 @@
 
                 <TextView
                     android:id="@+id/data"
-                    android:layout_width="240dp"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="30dp"
+                    android:layout_marginTop="60dp"
                     android:layout_marginLeft="18dp"
+                    android:layout_marginRight="18dp"
                     android:text="@string/data"
                     android:textColor="@color/black"
                     android:textSize="17sp"
                     android:justificationMode="inter_word"
                     android:layout_below="@id/stunting"/>
-
-                <ImageView
-                    android:id="@+id/datas"
-                    android:layout_width="150dp"
-                    android:layout_height="150dp"
-                    android:layout_below="@id/pengertian"
-                    android:layout_marginTop="8dp"
-                    android:layout_marginRight="16dp"
-                    android:src="@drawable/datastunting"
-                    android:layout_toEndOf="@id/data"/>
 
 
             </RelativeLayout>

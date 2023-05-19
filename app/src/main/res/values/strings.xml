@@ -1,5 +1,5 @@
 <resources>
     <string name="app_name">KKNT_Stunting</string>
-    <string name="pengertian">Stunting adalah gangguan pertumbuhan yang ditandai dengan tinggi anak yang berada di bawah standar (lebih pendek) jika dibandingkan anak-anak seusianya.</string>
-    <string name="data">Berdasarkan data Survei Status Gizi Balita Indonesia (SSGBI) tahun 2021, ada sekitar 24% atau 5,33 juta balita Indonesia yang mengalami stunting.</string>
+    <string name="pengertian">Stunting adalah permasalahan gizi kronis yang disebabkan oleh kurangnya asupan gizi dalam rentang yang cukup waktu lama, umumnya hal ini karena asupan makan yang tidak sesuai dengan kebutuhan gizi. Permasalahan stunting terjadi mulai dari dalam kandungan dan baru akan terlihat ketika anak sudah menginjak usia dua tahun.</string>
+    <string name="data">Bagi UNICEF, stunting didefinisikan sebagai persentase anak-anak usia 0 sampai 59 bulan, dengan tinggi badan di bawah minus (stunting sedang dan berat) dan minus tiga (stunting kronis), hal ini diukur dengan menggunakan standar pertumbuhan anak yang dikeluarkan oleh WHO.\nSelain mengalami pertumbuhan terhambat, stunting juga kerap kali dikaitkan dengan penyebab perkembangan otak yang tidak maksimal. Hal ini dapat mempengaruhi kemampuan mental dan belajar tidak maksimal, serta prestasi belajar yang buruk. </string>
 </resources>
