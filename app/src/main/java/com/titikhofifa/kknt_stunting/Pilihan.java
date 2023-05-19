@@ -12,6 +12,7 @@ public class Pilihan extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pilihan);
+        getSupportActionBar().setTitle("Menu Pilihan");
 
         Button button1 = findViewById(R.id.btn_ebook);
 

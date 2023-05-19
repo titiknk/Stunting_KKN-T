@@ -13,6 +13,20 @@
         android:theme="@style/Theme.KKNT_Stunting"
         tools:targetApi="31">
         <activity
+            android:name=".DampakJangkaPanjang"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".DampakJangkaPendek"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".Kolin"
             android:exported="false">
             <meta-data
