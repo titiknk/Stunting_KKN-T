@@ -50,7 +50,7 @@
                 <ImageView
                     android:layout_width="40dp"
                     android:layout_height="40dp"
-                    android:src="@drawable/aidkit" />
+                    android:src="@drawable/protein" />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
@@ -80,7 +80,7 @@
                 <ImageView
                     android:layout_width="40dp"
                     android:layout_height="40dp"
-                    android:src="@drawable/consultation" />
+                    android:src="@drawable/karbohidrat" />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
@@ -110,7 +110,7 @@
                 <ImageView
                     android:layout_width="40dp"
                     android:layout_height="40dp"
-                    android:src="@drawable/capsules" />
+                    android:src="@drawable/lemak" />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
@@ -140,7 +140,7 @@
                 <ImageView
                     android:layout_width="40dp"
                     android:layout_height="40dp"
-                    android:src="@drawable/syringe" />
+                    android:src="@drawable/serat" />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
@@ -170,7 +170,7 @@
                 <ImageView
                     android:layout_width="40dp"
                     android:layout_height="40dp"
-                    android:src="@drawable/healthcare" />
+                    android:src="@drawable/zatbesi" />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
@@ -200,7 +200,7 @@
                 <ImageView
                     android:layout_width="40dp"
                     android:layout_height="40dp"
-                    android:src="@drawable/medicalequipment" />
+                    android:src="@drawable/asamfolat" />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
@@ -230,7 +230,7 @@
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:src="@drawable/diagnosis"
+                    android:src="@drawable/kalsium"
                     tools:ignore="ImageContrastCheck" />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
@@ -261,7 +261,7 @@
                 <ImageView
                     android:layout_width="40dp"
                     android:layout_height="40dp"
-                    android:src="@drawable/medicalrecord" />
+                    android:src="@drawable/vitamind" />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
@@ -291,7 +291,7 @@
                 <ImageView
                     android:layout_width="40dp"
                     android:layout_height="40dp"
-                    android:src="@drawable/dtst" />
+                    android:src="@drawable/kolin" />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
