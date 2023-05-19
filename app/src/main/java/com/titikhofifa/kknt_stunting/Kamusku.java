@@ -7,23 +7,23 @@ import androidx.cardview.widget.CardView;
 import android.content.Intent;
 import android.os.Bundle;
 
-public class MenuActivity extends AppCompatActivity {
+public class Kamusku extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_menu);
-        getSupportActionBar().setTitle("Menu Home");
+        setContentView(R.layout.activity_kamusku);
+        getSupportActionBar().setTitle("Kamusku");
 
-        CardView cardview1 = findViewById(R.id.card1);
-        CardView cardview2 = findViewById(R.id.card2);
-        CardView cardview3 = findViewById(R.id.card3);
-        CardView cardview4 = findViewById(R.id.card4);
-        CardView cardview5 = findViewById(R.id.card5);
-        CardView cardview6 = findViewById(R.id.card6);
-        CardView cardview7 = findViewById(R.id.card7);
-        CardView cardview8 = findViewById(R.id.card8);
-        CardView cardview9 = findViewById(R.id.card9);
+    CardView cardview1 = findViewById(R.id.card1);
+    CardView cardview2 = findViewById(R.id.card2);
+    CardView cardview3 = findViewById(R.id.card3);
+    CardView cardview4 = findViewById(R.id.card4);
+    CardView cardview5 = findViewById(R.id.card5);
+    CardView cardview6 = findViewById(R.id.card6);
+    CardView cardview7 = findViewById(R.id.card7);
+    CardView cardview8 = findViewById(R.id.card8);
+    CardView cardview9 = findViewById(R.id.card9);
 
         cardview1.setOnClickListener(view -> Fitur1());
 
@@ -43,50 +43,51 @@ public class MenuActivity extends AppCompatActivity {
 
         cardview9.setOnClickListener(view -> Fitur9());
 
-    }
+}
 
     private void Fitur1() {
-        Intent intent = new Intent(this, Fitur1.class);
+        Intent intent = new Intent(this, Protein.class);
         startActivity(intent);
     }
 
     private void Fitur2() {
-        Intent intent = new Intent(this, Fitur2.class);
+        Intent intent = new Intent(this, Karbohidrat.class);
         startActivity(intent);
     }
 
     private void Fitur3() {
-        Intent intent = new Intent(this, TandaGejala.class);
+        Intent intent = new Intent(this, Lemak.class);
         startActivity(intent);
     }
 
     private void Fitur4() {
-        Intent intent = new Intent(this, DampakStunting.class);
+        Intent intent = new Intent(this, Serat.class);
         startActivity(intent);
     }
 
     private void Fitur5() {
-        Intent intent = new Intent(this, PencegahanStunting.class);
+        Intent intent = new Intent(this, ZatBesi.class);
         startActivity(intent);
     }
 
     private void Fitur6() {
-        Intent intent = new Intent(this, DeteksiDini.class);
+        Intent intent = new Intent(this, AsamFolat.class);
         startActivity(intent);
     }
 
     private void Fitur7() {
-        Intent intent = new Intent(this, ReferensiNutrisari.class);
+        Intent intent = new Intent(this, Kalsium.class);
         startActivity(intent);
     }
 
     private void Fitur8() {
-        Intent intent = new Intent(this, PentingnyaAsi.class);
+        Intent intent = new Intent(this, VitaminD.class);
         startActivity(intent);
     }
 
     private void Fitur9() {
-        Intent intent = new Intent(this, InfografisData.class);
+        Intent intent = new Intent(this, Kolin.class);
         startActivity(intent);
     }
+
 }

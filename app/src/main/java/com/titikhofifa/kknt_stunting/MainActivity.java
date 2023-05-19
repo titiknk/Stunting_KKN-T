@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void openLandingActivity() {
-        Intent intent = new Intent(this, MenuActivity.class);
+        Intent intent = new Intent(this, Pilihan.class);
         startActivity(intent);
     }
 
