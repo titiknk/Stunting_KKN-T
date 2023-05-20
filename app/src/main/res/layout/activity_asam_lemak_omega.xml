@@ -31,7 +31,7 @@
         android:layout_marginEnd="18dp"
         android:layout_marginBottom="18dp"
         android:justificationMode="inter_word"
-        android:text="@string/def_asam_lemak_omega"
+        android:text="@string/def_asamlemak_omega"
         android:textColor="@color/black"
         android:textSize="12sp" />
 

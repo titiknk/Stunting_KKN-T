@@ -22,7 +22,7 @@
         android:textStyle="bold" />
 
     <TextView
-        android:id="@+id/def_protein"
+        android:id="@+id/def_karbohidrat"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/stunting"
@@ -31,7 +31,7 @@
         android:layout_marginEnd="18dp"
         android:layout_marginBottom="18dp"
         android:justificationMode="inter_word"
-        android:text="@string/def_protein"
+        android:text="@string/def_karbohidrat"
         android:textColor="@color/black"
         android:textSize="12sp" />
 
