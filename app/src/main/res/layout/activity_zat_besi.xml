@@ -409,7 +409,7 @@
             android:layout_gravity="bottom|center"
             android:layout_marginBottom="10dp"
             android:fontFamily="@font/worksans"
-            android:text="Cokelat Hitam"
+            android:text="Coklat Hitam"
             android:textAlignment="center"
             android:textColor="@color/black"
             android:textSize="11sp"

@@ -354,7 +354,7 @@
             android:layout_gravity="bottom|center"
             android:layout_marginBottom="10dp"
             android:fontFamily="@font/worksans"
-            android:text="Kacang Kedelai"
+            android:text="Kedelai"
             android:textAlignment="center"
             android:textColor="@color/black"
             android:textSize="11sp"

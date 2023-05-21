@@ -175,7 +175,7 @@
             android:layout_gravity="bottom|center"
             android:layout_marginBottom="10dp"
             android:fontFamily="@font/worksans"
-            android:text="Daun bayam"
+            android:text="Bayam"
             android:textAlignment="center"
             android:textColor="@color/black"
             android:textSize="11sp"
