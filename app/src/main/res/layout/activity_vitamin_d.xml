@@ -258,66 +258,6 @@
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
-        <androidx.cardview.widget.CardView
-            android:id="@+id/card8"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:layout_row="2"
-            android:layout_rowWeight="1"
-            android:layout_column="1"
-            android:layout_columnWeight="1"
-            android:layout_gravity="center"
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp"
-            android:layout_marginBottom="50dp"
-            android:backgroundTint="#177DB8"
-            app:cardCornerRadius="15dp"
-            app:cardElevation="8dp">
-
-            <LinearLayout
-                android:layout_width="40dp"
-                android:layout_height="40dp"
-                android:layout_gravity="center_vertical|center_horizontal"
-                android:gravity="center"
-                android:orientation="vertical">
-
-                <ImageView
-                    android:layout_width="40dp"
-                    android:layout_height="40dp"
-                    android:src="@drawable/medicalrecord" />
-            </LinearLayout>
-        </androidx.cardview.widget.CardView>
-
-        <androidx.cardview.widget.CardView
-            android:id="@+id/card9"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:layout_row="2"
-            android:layout_rowWeight="1"
-            android:layout_column="2"
-            android:layout_columnWeight="1"
-            android:layout_gravity="center"
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp"
-            android:layout_marginBottom="50dp"
-            android:backgroundTint="#177DB8"
-            app:cardCornerRadius="15dp"
-            app:cardElevation="8dp">
-
-            <LinearLayout
-                android:layout_width="40dp"
-                android:layout_height="40dp"
-                android:layout_gravity="center_vertical|center_horizontal"
-                android:gravity="center"
-                android:orientation="vertical">
-
-                <ImageView
-                    android:layout_width="40dp"
-                    android:layout_height="40dp"
-                    android:src="@drawable/dtst" />
-            </LinearLayout>
-        </androidx.cardview.widget.CardView>
-
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -326,7 +266,7 @@
             android:layout_gravity="bottom|center"
             android:layout_marginBottom="10dp"
             android:fontFamily="@font/worksans"
-            android:text="Apa itu \nstunting?"
+            android:text="Ikan Salmon"
             android:textAlignment="center"
             android:textColor="@color/black"
             android:textSize="11sp"
@@ -340,7 +280,7 @@
             android:layout_gravity="bottom|center"
             android:layout_marginBottom="10dp"
             android:fontFamily="@font/worksans"
-            android:text="Faktor \nPenyebab"
+            android:text="Ikan Sarden "
             android:textAlignment="center"
             android:textColor="@color/black"
             android:textSize="11sp"
@@ -354,7 +294,7 @@
             android:layout_gravity="bottom|center"
             android:layout_marginBottom="10dp"
             android:fontFamily="@font/worksans"
-            android:text="Tanda \ndan Gejala"
+            android:text="Telur"
             android:textAlignment="center"
             android:textColor="@color/black"
             android:textSize="11sp"
@@ -368,7 +308,7 @@
             android:layout_gravity="bottom|center"
             android:layout_marginBottom="10dp"
             android:fontFamily="@font/worksans"
-            android:text="Dampak \nStunting"
+            android:text="Daging Merah"
             android:textAlignment="center"
             android:textColor="@color/black"
             android:textSize="11sp"
@@ -382,7 +322,7 @@
             android:layout_gravity="bottom|center"
             android:layout_marginBottom="10dp"
             android:fontFamily="@font/worksans"
-            android:text="Pencegahan\nStunting"
+            android:text="Minyak Hati Ikan Kod"
             android:textAlignment="center"
             android:textColor="@color/black"
             android:textSize="11sp"
@@ -395,7 +335,7 @@
             android:layout_column="2"
             android:layout_gravity="bottom|center"
             android:fontFamily="@font/worksans"
-            android:text="Deteksi dini\nGangguan\nPerkembangan"
+            android:text="Produk Olahan\nSusu"
             android:textAlignment="center"
             android:textColor="@color/black"
             android:textSize="11sp"
@@ -409,35 +349,7 @@
             android:layout_gravity="bottom|center"
             android:layout_marginBottom="10dp"
             android:fontFamily="@font/worksans"
-            android:text="Isi\nPiringku"
-            android:textAlignment="center"
-            android:textColor="@color/black"
-            android:textSize="11sp"
-            android:textStyle="bold" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_row="2"
-            android:layout_column="1"
-            android:layout_gravity="bottom|center"
-            android:layout_marginBottom="10dp"
-            android:fontFamily="@font/worksans"
-            android:text="Pentingya\nASI Ekslusif"
-            android:textAlignment="center"
-            android:textColor="@color/black"
-            android:textSize="11sp"
-            android:textStyle="bold" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_row="2"
-            android:layout_column="2"
-            android:layout_gravity="bottom|center"
-            android:layout_marginBottom="10dp"
-            android:fontFamily="@font/worksans"
-            android:text="Infografis\nData Stunting"
+            android:text="Jamur"
             android:textAlignment="center"
             android:textColor="@color/black"
             android:textSize="11sp"
