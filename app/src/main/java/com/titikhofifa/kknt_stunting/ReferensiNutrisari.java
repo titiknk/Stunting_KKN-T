@@ -12,7 +12,7 @@ public class ReferensiNutrisari extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_referensi_nutrisari);
-        getSupportActionBar().setTitle("Referensi Nutrisi");
+        getSupportActionBar().setTitle("Isi Piringku");
         actionBar = getSupportActionBar();
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
