@@ -426,7 +426,7 @@
             android:layout_column="2"
             android:layout_gravity="bottom|center"
             android:fontFamily="@font/worksans"
-            android:text="Deteksi dini\nGangguan\nPerkembangan"
+            android:text="Deteksi Dini\nGangguan\nPerkembangan"
             android:textAlignment="center"
             android:textColor="@color/black"
             android:textSize="11sp"
