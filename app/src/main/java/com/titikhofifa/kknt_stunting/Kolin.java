@@ -49,7 +49,7 @@ public class Kolin extends AppCompatActivity {
     }
 
     private void Fitur1() {
-        Intent intent = new Intent(this, HatiAyamSapi.class);
+        Intent intent = new Intent(this, HatiJeroan.class);
         startActivity(intent);
     }
 
