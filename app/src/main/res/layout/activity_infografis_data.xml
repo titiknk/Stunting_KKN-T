@@ -5,20 +5,35 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#B0E0E6"
-    android:gravity="center"
+    android:gravity="bottom"
     android:orientation="vertical"
     tools:context=".InfografisData">
 
-    <androidx.cardview.widget.CardView
-        android:layout_width="400dp"
-        android:layout_height="600dp">
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fillViewport="true">
 
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center_horizontal"
-            android:scaleType="fitXY"
-            android:src="@drawable/stunting"/>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
 
-    </androidx.cardview.widget.CardView>
+                <ImageView
+                    android:id="@+id/data1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/data1"/>
+
+                <ImageView
+                    android:id="@+id/data2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@id/data1"
+                    android:src="@drawable/data2"/>
+
+            </RelativeLayout>
+
+    </ScrollView>
+
 </RelativeLayout>
