@@ -73,7 +73,7 @@
                 <ImageView
                     android:layout_width="40dp"
                     android:layout_height="40dp"
-                    android:src="@drawable/aidkit" />
+                    android:src="@drawable/beras" />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
@@ -103,7 +103,7 @@
                 <ImageView
                     android:layout_width="40dp"
                     android:layout_height="40dp"
-                    android:src="@drawable/consultation" />
+                    android:src="@drawable/jagung" />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
@@ -133,7 +133,7 @@
                 <ImageView
                     android:layout_width="40dp"
                     android:layout_height="40dp"
-                    android:src="@drawable/capsules" />
+                    android:src="@drawable/kentang" />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
@@ -163,7 +163,7 @@
                 <ImageView
                     android:layout_width="40dp"
                     android:layout_height="40dp"
-                    android:src="@drawable/syringe" />
+                    android:src="@drawable/gandum" />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
@@ -193,7 +193,7 @@
                 <ImageView
                     android:layout_width="40dp"
                     android:layout_height="40dp"
-                    android:src="@drawable/healthcare" />
+                    android:src="@drawable/sayurkacang" />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 

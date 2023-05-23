@@ -73,7 +73,7 @@
                 <ImageView
                     android:layout_width="40dp"
                     android:layout_height="40dp"
-                    android:src="@drawable/aidkit" />
+                    android:src="@drawable/ikansalmon" />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
@@ -103,7 +103,7 @@
                 <ImageView
                     android:layout_width="40dp"
                     android:layout_height="40dp"
-                    android:src="@drawable/consultation" />
+                    android:src="@drawable/sarden" />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
@@ -133,7 +133,7 @@
                 <ImageView
                     android:layout_width="40dp"
                     android:layout_height="40dp"
-                    android:src="@drawable/capsules" />
+                    android:src="@drawable/telur" />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
@@ -163,7 +163,7 @@
                 <ImageView
                     android:layout_width="40dp"
                     android:layout_height="40dp"
-                    android:src="@drawable/syringe" />
+                    android:src="@drawable/dagingmerah" />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
@@ -193,7 +193,7 @@
                 <ImageView
                     android:layout_width="40dp"
                     android:layout_height="40dp"
-                    android:src="@drawable/healthcare" />
+                    android:src="@drawable/minyakhati" />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
@@ -223,7 +223,7 @@
                 <ImageView
                     android:layout_width="40dp"
                     android:layout_height="40dp"
-                    android:src="@drawable/medicalequipment" />
+                    android:src="@drawable/susu" />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
@@ -253,7 +253,7 @@
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:src="@drawable/diagnosis"
+                    android:src="@drawable/jamur"
                     tools:ignore="ImageContrastCheck" />
             </LinearLayout>
         </androidx.cardview.widget.CardView>

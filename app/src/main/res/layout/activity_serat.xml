@@ -73,7 +73,7 @@
                 <ImageView
                     android:layout_width="40dp"
                     android:layout_height="40dp"
-                    android:src="@drawable/aidkit" />
+                    android:src="@drawable/alpukat2" />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
@@ -103,7 +103,7 @@
                 <ImageView
                     android:layout_width="40dp"
                     android:layout_height="40dp"
-                    android:src="@drawable/consultation" />
+                    android:src="@drawable/apel" />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
@@ -133,7 +133,7 @@
                 <ImageView
                     android:layout_width="40dp"
                     android:layout_height="40dp"
-                    android:src="@drawable/capsules" />
+                    android:src="@drawable/pir" />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
@@ -163,7 +163,7 @@
                 <ImageView
                     android:layout_width="40dp"
                     android:layout_height="40dp"
-                    android:src="@drawable/syringe" />
+                    android:src="@drawable/kacangalmond" />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
@@ -193,7 +193,7 @@
                 <ImageView
                     android:layout_width="40dp"
                     android:layout_height="40dp"
-                    android:src="@drawable/healthcare" />
+                    android:src="@drawable/pisang" />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
@@ -223,7 +223,7 @@
                 <ImageView
                     android:layout_width="40dp"
                     android:layout_height="40dp"
-                    android:src="@drawable/medicalequipment" />
+                    android:src="@drawable/wortel" />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
@@ -253,7 +253,7 @@
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:src="@drawable/diagnosis"
+                    android:src="@drawable/ubijalar"
                     tools:ignore="ImageContrastCheck" />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
@@ -284,7 +284,7 @@
                 <ImageView
                     android:layout_width="40dp"
                     android:layout_height="40dp"
-                    android:src="@drawable/medicalrecord" />
+                    android:src="@drawable/oat" />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
@@ -314,7 +314,7 @@
                 <ImageView
                     android:layout_width="40dp"
                     android:layout_height="40dp"
-                    android:src="@drawable/dtst" />
+                    android:src="@drawable/kacangpolong" />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
