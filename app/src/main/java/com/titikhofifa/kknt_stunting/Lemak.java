@@ -84,7 +84,7 @@ public class Lemak extends AppCompatActivity {
     }
 
     private void Fitur8() {
-        Intent intent = new Intent(this, Kedelai.class);
+        Intent intent = new Intent(this, SusuKedelai.class);
         startActivity(intent);
     }
 

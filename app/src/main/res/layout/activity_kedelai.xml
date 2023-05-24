@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#B0E0E6"
+    android:background="@drawable/mankedelai"
     android:orientation="vertical"
+    android:gravity="center"
     tools:context=".Kedelai">
 </LinearLayout>
