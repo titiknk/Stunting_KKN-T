@@ -8,26 +8,28 @@ import android.content.Intent;
 import android.os.Bundle;
 
 public class Kamusku extends AppCompatActivity {
-
+    ActionBar actionBar;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_kamusku);
-        getSupportActionBar().setTitle("Kamusku");
+        getSupportActionBar().setTitle("Kamus Nutrisi");
+        actionBar = getSupportActionBar();
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
-    CardView cardview1 = findViewById(R.id.card1);
-    CardView cardview2 = findViewById(R.id.card2);
-    CardView cardview3 = findViewById(R.id.card3);
-    CardView cardview4 = findViewById(R.id.card4);
-    CardView cardview5 = findViewById(R.id.card5);
-    CardView cardview6 = findViewById(R.id.card6);
-    CardView cardview7 = findViewById(R.id.card7);
-    CardView cardview8 = findViewById(R.id.card8);
-    CardView cardview9 = findViewById(R.id.card9);
-    CardView cardview10 = findViewById(R.id.card10);
-    CardView cardview11 = findViewById(R.id.card11);
-    CardView cardview12 = findViewById(R.id.card12);
-    CardView cardview13 = findViewById(R.id.card13);
+        CardView cardview1 = findViewById(R.id.card1);
+        CardView cardview2 = findViewById(R.id.card2);
+        CardView cardview3 = findViewById(R.id.card3);
+        CardView cardview4 = findViewById(R.id.card4);
+        CardView cardview5 = findViewById(R.id.card5);
+        CardView cardview6 = findViewById(R.id.card6);
+        CardView cardview7 = findViewById(R.id.card7);
+        CardView cardview8 = findViewById(R.id.card8);
+        CardView cardview9 = findViewById(R.id.card9);
+        CardView cardview10 = findViewById(R.id.card10);
+        CardView cardview11 = findViewById(R.id.card11);
+        CardView cardview12 = findViewById(R.id.card12);
+        CardView cardview13 = findViewById(R.id.card13);
 
         cardview1.setOnClickListener(view -> Fitur1());
 
@@ -54,7 +56,17 @@ public class Kamusku extends AppCompatActivity {
         cardview12.setOnClickListener(view -> Fitur12());
 
         cardview13.setOnClickListener(view -> Fitur13());
-}
+    }
+    @Override
+    public boolean onSupportNavigateUp(){
+        onBackPressed();
+        return true;
+    }
+
+    @Override
+    public void onBackPressed(){
+        super.onBackPressed();
+    }
 
     private void Fitur1() {
         Intent intent = new Intent(this, Protein.class);

@@ -50,7 +50,7 @@
         android:background="@drawable/rounded_button"
         android:elevation="20dp"
         android:fontFamily="@font/worksansbold"
-        android:text="Kamusku"
+        android:text="Kamus Nutrisi"
         android:textAllCaps="false"
         android:textColor="@color/black"
         android:textSize="13sp" />

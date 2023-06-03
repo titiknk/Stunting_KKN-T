@@ -389,11 +389,13 @@
             android:textStyle="bold" />
 
         <TextView
+            android:id="@+id/textView9"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_row="1"
             android:layout_column="2"
             android:layout_gravity="bottom|center"
+            android:layout_marginBottom="10dp"
             android:fontFamily="@font/worksans"
             android:text="Susu"
             android:textAlignment="center"

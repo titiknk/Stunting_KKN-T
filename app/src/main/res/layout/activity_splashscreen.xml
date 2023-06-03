@@ -8,30 +8,20 @@
     android:background="#B0E0E6"
     tools:context=".splashscreen">
 
-    <ImageView
-        android:id="@+id/bg_splash"
-        android:layout_width="100dp"
-        android:layout_height="150dp"
-        android:layout_marginTop="80dp"
-        android:src="@drawable/logo2"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"/>
-
     <TextView
         android:id="@+id/judulapk"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="18dp"
+        android:layout_marginTop="28dp"
         android:text="SPEA"
-        android:textSize="45dp"
         android:textColor="	#010410"
+        android:textSize="45dp"
         android:textStyle="bold"
+        android:gravity="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/bg_splash" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/namaapk"
@@ -39,6 +29,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:textColor="#0A122C"
+        android:gravity="center"
         android:text="Stunting Prevention Education Application"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -48,12 +39,10 @@
         android:id="@+id/disusun"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="244dp"
+        android:layout_marginTop="420dp"
         android:text="Disusun oleh :"
         android:textColor="#010410"
-        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/namaapk" />
 
@@ -62,8 +51,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="28dp"
-        android:text="KKN-T KELOMPOK 5"
+        android:text="KELOMPOK 5 KKN-T MBKM"
         android:textColor="#0A122C"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/disusun" />
@@ -75,8 +65,85 @@
         android:layout_marginTop="24dp"
         android:text="Universitas Yudharta Pasuruan"
         android:textColor="#0A122C"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/nama_kelompok" />
+
+    <TextView
+        android:id="@+id/thn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:text="2023"
+        android:textColor="#0A122C"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nama_kelompok" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="112dp"
+        android:layout_height="92dp"
+        app:layout_constraintBottom_toTopOf="@+id/disusun"
+        app:layout_constraintEnd_toStartOf="@+id/imageView2"
+        app:layout_constraintHorizontal_bias="0.58"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/namaapk"
+        app:layout_constraintVertical_bias="0.261"
+        app:srcCompat="@drawable/logokknt5" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="110dp"
+        android:layout_height="92dp"
+        app:layout_constraintBottom_toTopOf="@+id/disusun"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/namaapk"
+        app:layout_constraintVertical_bias="0.261"
+        app:srcCompat="@drawable/logouyp" />
+
+    <TextView
+        android:id="@+id/dosen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="Dosen Pembimbing Lapangan :"
+        android:textColor="#0A122C"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <TextView
+        android:id="@+id/pakagus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Agus Prianto, S.Sos., M.PA"
+        android:textColor="#0A122C"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/disusun"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dosen"
+        app:layout_constraintVertical_bias="0.21" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="109dp"
+        android:layout_height="92dp"
+        android:layout_marginTop="84dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.481"
+        app:layout_constraintStart_toEndOf="@+id/imageView2"
+        app:layout_constraintTop_toBottomOf="@+id/namaapk"
+        app:srcCompat="@drawable/kknt" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

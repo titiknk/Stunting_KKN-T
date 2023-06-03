@@ -8,12 +8,14 @@ import android.content.Intent;
 import android.os.Bundle;
 
 public class MenuActivity extends AppCompatActivity {
-
+    ActionBar actionBar;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu);
         getSupportActionBar().setTitle("Menu Home");
+        actionBar = getSupportActionBar();
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         CardView cardview1 = findViewById(R.id.card1);
         CardView cardview2 = findViewById(R.id.card2);
@@ -43,6 +45,16 @@ public class MenuActivity extends AppCompatActivity {
 
         cardview9.setOnClickListener(view -> Fitur9());
 
+    }
+    @Override
+    public boolean onSupportNavigateUp(){
+        onBackPressed();
+        return true;
+    }
+
+    @Override
+    public void onBackPressed(){
+        super.onBackPressed();
     }
 
     private void Fitur1() {

@@ -27,8 +27,8 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    @Override
-    public void onBackPressed() {
+        @Override
+        public void onBackPressed() {
         AlertDialog.Builder alertDialog = new AlertDialog.Builder(MainActivity.this);
         alertDialog.setIcon(R.drawable.ic_baseline_exit_to_app_24);
         alertDialog.setTitle("Keluar dari Aplikasi");
@@ -47,6 +47,7 @@ public class MainActivity extends AppCompatActivity {
         });
         alertDialog.show();
     }
+
     public void showToast(View view) {
         Toast toast = Toast.makeText(this, "Mari Tentukan Pilihanmu!!!",
                 Toast.LENGTH_SHORT);
